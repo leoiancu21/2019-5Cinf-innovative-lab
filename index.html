@@ -57,41 +57,163 @@
         <p>Welcome to the Innovative Teaching Lab!</p>
       </div>
 
-      <!-- Hint by prof: other sections here ...-->
-      <!-- Please pay attention to the div id, it has to match with the href in the link -->
-      
-    </div>
-    <!-- /#page-content-wrapper -->
+      <div id="Borrow" class="container-fluid tab-content">
+        <h1 class="mt-4">Borrow material</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
 
-  </div>
-  <!-- /#wrapper -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Menu Toggle Script -->
-  <script>
-    $("#menu-toggle").click(function (e) {
-      e.preventDefault();
-      $("#wrapper").toggleClass("toggled");
-    });
+            <div class="card">
+              <div class="card-body">
+                Arduino
+                <div class="row">
 
-    $(document).ready(function () {
-      $('.nav ul li:first').addClass('active');
-      $('.tab-content:not(:first)').hide();
-      console.log("start");
-      $('.list-group a').click(function (event) {
-        event.preventDefault();
-        var content = $(this).attr('href');
-        console.log("click" + content);
-        $(this).parent().addClass('active');
-        $(this).parent().siblings().removeClass('active');
-        $(content).show();
-        $(content).siblings('.tab-content').hide();
-      });
-    });
-  </script>
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    <a href="#" class="btn btn-primary">Check-in</a>
+
+                  </div>
+                  <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+                  <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+
+                    <a href="#" class="btn btn-primary">Check-out</a>
+
+                  </div>
+
+
+                </div>
+
+              </div>
+
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+
+
+                <div class="card">
+                  <div class="card-body">
+                    Raspberry
+                    <div class="row">
+
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                        <a href="#" class="btn btn-primary">Check-in</a>
+
+                      </div>
+                      <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+                      <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+
+                        <a href="#" class="btn btn-primary">Check-out</a>
+
+                      </div>
+
+
+                    </div>
+
+                  </div>
+
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+
+
+                    <div class="card">
+                      <div class="card-body">
+                        Laptops
+                        <div class="row">
+
+                          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                            <a href="#" class="btn btn-primary">Check-in</a>
+
+                          </div>
+                          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+                          <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+
+                            <a href="#" class="btn btn-primary">Check-out</a>
+
+                          </div>
+
+
+                        </div>
+
+                      </div>
+
+
+
+                    </div>
+                    <div class="row">
+
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+
+
+                        <div class="card">
+                          <div class="card-body">
+                            Spare parts
+                            <div class="row">
+
+                              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                                <a href="#" class="btn btn-primary">Check-in</a>
+
+                              </div>
+                              <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+
+                              <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+
+                                <a href="#" class="btn btn-primary">Check-out</a>
+
+                              </div>
+
+
+                            </div>
+
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- Hint by prof: other sections here ...-->
+                  <!-- Please pay attention to the div id, it has to match with the href in the link -->
+
+                </div>
+                <!-- /#page-content-wrapper -->
+
+              </div>
+              <!-- /#wrapper -->
+
+              <!-- Bootstrap core JavaScript -->
+              <script src="vendor/jquery/jquery.min.js"></script>
+              <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+              <!-- Menu Toggle Script -->
+              <script>
+                $("#menu-toggle").click(function (e) {
+                  e.preventDefault();
+                  $("#wrapper").toggleClass("toggled");
+                });
+
+                $(document).ready(function () {
+                  $('.nav ul li:first').addClass('active');
+                  $('.tab-content:not(:first)').hide();
+                  console.log("start");
+                  $('.list-group a').click(function (event) {
+                    event.preventDefault();
+                    var content = $(this).attr('href');
+                    console.log("click" + content);
+                    $(this).parent().addClass('active');
+                    $(this).parent().siblings().removeClass('active');
+                    $(content).show();
+                    $(content).siblings('.tab-content').hide();
+                  });
+                });
+              </script>
 
 </body>
 
